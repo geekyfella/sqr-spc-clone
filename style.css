@@ -41,6 +41,10 @@ body{
     font-family: Helvetica;
 
 }
+#child-nav02>:nth-child(1){
+    color: aliceblue;
+    text-decoration: none;
+}
 /* 3  #*/
 #child-nav02 button{
     padding: 12px;
@@ -49,13 +53,15 @@ body{
     font-weight: 850;
     height:50px;
     width: 160px;
-    pointer-events: fill;
 
+}
+#center-text{
+    position: relative
 }
 
 #center-text h1{
     color: aliceblue;
-    font-size: 10px;
+    font-size: 80px;
     font-family: Helvetica;
     text-align: center;
     gap: 29px;
@@ -70,12 +76,26 @@ body{
     background-color: #70373f;
     gap: 20px;
     border-radius: 80px;
-    font-size: 50px;
-    padding: 40px 40px;
+    font-size: 30px;
+    padding: 20px 20px;
     text-align: center;
 }
 
-.img {
+#kathak-img{
+    height: 300px;
+    width: 250px;
+    border-radius: 40px;
+    position:absolute;
+    top: 20%;
+    bottom: 40%;
+    left: 10%;
+}
+
+#small-business-img{
+    border-radius: 40px;
+    height: 300px;
+    width: 450px;
     position: absolute;
-    border-radius: 20px;
+    left:50%;
+    
 }
