@@ -33,17 +33,17 @@ tl.from("#everything, #tobooknowsell, #anything",{
     stagger:0.3,
 })
 
-tl.from("#kathak-img",{
+gsap.from("#kathak-img",{
     x:-10,
     duration:0.5,
-    delay:0,
+    delay:1,
     opacity:0,
 })
 
-tl.from("#small-business-img",{
+gsap.from("#small-business-img",{
     x:10,
     duration:0.5,
-    delay:0,
+    delay:1,
     opacity:0,
     // scrollTrigger:{
     //     trigger:"#small-business-img",
