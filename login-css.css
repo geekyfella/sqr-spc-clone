@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:black;
 }
 #main{
     height: 100vh;
@@ -8,24 +8,36 @@ body{
 #nav-bar{
     height:10vh;
     width:100%;
-    background-color: white;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#nav-bar :nth-child(1){
-    color:black;
+#nav-bar :nth-child(1){  /* Back button */
+    color:white;
     font-family: Helvetica;
     text-decoration: none;
     padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
-#nav-bar :nth-child(2){
-    color: black;
+#nav-bar :nth-child(2){ /* Create Acc button */
+    color: white;
     font-family:Helvetica;
     text-decoration: none;
     text-transform: uppercase;
     padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
+#login-cred-box{
+    margin: auto;
+    bottom: 40%;
+    height: 30vh;
+    width: 30vw;
+    background-color: red;
+
+}
