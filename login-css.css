@@ -1,3 +1,8 @@
+*{
+ 
+}
+
+
 body{
     background-color:black;
 }
@@ -41,5 +46,6 @@ body{
     height: 40vh;
     width: 40vw;
     background-color: red;
+
 
 }
