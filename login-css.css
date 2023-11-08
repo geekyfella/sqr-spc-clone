@@ -55,6 +55,11 @@ body{
 }
 
 #heading{
+    position: absolute;
+    margin: auto;
     font-family: Rozone;
     text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 35%;
 }
