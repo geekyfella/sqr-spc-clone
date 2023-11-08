@@ -35,9 +35,11 @@ body{
 
 #login-cred-box{
     margin: auto;
-    bottom: 40%;
-    height: 30vh;
-    width: 30vw;
+    position: relative;
+    left: 1%;
+    top: 40%;
+    height: 40vh;
+    width: 40vw;
     background-color: red;
 
 }
