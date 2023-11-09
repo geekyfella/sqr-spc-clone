@@ -13,7 +13,6 @@
     src: url(Helvetica.ttf);
 }
 
-
 body{
     background-color:black;
 }
@@ -32,8 +31,8 @@ body{
 
 #nav-bar :nth-child(1){  /* Back button */
     color:white;
-    font-family: Rozone;
-    text-decoration: none;
+    font-family: Helvetica-nonbold;
+    font-weight: 250;
     padding-left: 10px;
     margin-left: 20px;
     margin-top: 10px;
@@ -41,7 +40,7 @@ body{
 
 #nav-bar :nth-child(2){ /* Create Acc button */
     color: white;
-    font-family: hel;
+    font-family: Helvetica-nonbold;
     text-decoration: none;
     text-transform: uppercase;
     padding-right: 10px;
