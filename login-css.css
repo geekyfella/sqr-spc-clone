@@ -32,6 +32,7 @@ body{
 #nav-bar :nth-child(1){  /* Back button */
     color:white;
     font-family: Helvetica-nonbold;
+    text-decoration: none;
     font-weight: 250;
     padding-left: 10px;
     margin-left: 20px;
@@ -41,6 +42,7 @@ body{
 #nav-bar :nth-child(2){ /* Create Acc button */
     color: white;
     font-family: Helvetica-nonbold;
+    font-weight: 250;
     text-decoration: none;
     text-transform: uppercase;
     padding-right: 10px;
