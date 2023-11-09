@@ -1,16 +1,16 @@
 @font-face{
     font-family: Rozone;
-    src: url(RozhaOne-Regular.ttf);
+    src: url(src/RozhaOne-Regular.ttf);
 }
 
 @font-face {
     font-family: helvetica-bold;
-    src: url(Helvetica-Bold.ttf);
+    src: url(src/Helvetica-Bold.ttf);
 }
 
 @font-face {
     font-family: Helvetica-nonbold;
-    src: url(Helvetica.ttf);
+    src: url(src/Helvetica.ttf);
 }
 
 body{
