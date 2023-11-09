@@ -3,6 +3,16 @@
     src: D\SDE\Square Space Clone\RozhaOne-Regular;
 }
 
+@font-face {
+    font-family: helvetica-bold;
+    src: url(Helvetica-Bold.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-nonbold;
+    src: url(Helvetica.ttf);
+}
+
 
 body{
     background-color:black;
@@ -31,7 +41,7 @@ body{
 
 #nav-bar :nth-child(2){ /* Create Acc button */
     color: white;
-    font-family:Helvetica;
+    font-family: hel;
     text-decoration: none;
     text-transform: uppercase;
     padding-right: 10px;
@@ -49,7 +59,9 @@ body{
     width: 40vw;
     border-color: red;
     background-color: aliceblue;
-    font-family:Rozone;
+    border-radius: 10px;
+    border-color: aqua;
+    border: 10px;
 
 
 }
@@ -57,9 +69,10 @@ body{
 #heading{
     position: absolute;
     margin: auto;
-    font-family: Rozone;
+    font-family: Helvetica-bold;
     text-align: center;
     position: absolute;
     top: 0%;
     left: 35%;
+    font-size: larger;
 }
